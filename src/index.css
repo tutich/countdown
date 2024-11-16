@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --red: hsl(345, 95%, 68%);
+  --white: hsl(0, 0%, 100%);
+  --blue-100: hsl(237, 18%, 59%);
+  --blue-200: hsl(236, 21%, 26%);
+  --blue-300: hsl(235, 16%, 14%);
+  --blue-400: hsl(234, 17%, 12%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Text", serif;
+}
+
+
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 1440px) {
+  
 }
