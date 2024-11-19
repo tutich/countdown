@@ -39,11 +39,11 @@ const Countdown = () => {
     <div>
         <section className="launch">
             <p>We're launching soon</p>
-            <div>
-              <p><span>{countdown.days}</span>days</p>
-              <p><span>{countdown.hours}</span>hours</p>
-              <p><span>{countdown.minutes}</span>minutes</p>
-              <p><span>{countdown.seconds}</span>Seconds</p>
+            <div className="countdown">
+              <p><span className="calendar-icon">{countdown.days}</span>days</p>
+              <p><span className="calendar-icon">{countdown.hours}</span>hours</p>
+              <p><span className="calendar-icon">{countdown.minutes}</span>minutes</p>
+              <p><span className="calendar-icon">{countdown.seconds}</span>Seconds</p>
             </div>
         </section>
     </div>
