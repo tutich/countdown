@@ -1,6 +1,6 @@
 import React from 'react'
 
-const countdown = () => {
+const Countdown = () => {
   return (
     <div>
         <section>
@@ -10,4 +10,4 @@ const countdown = () => {
   )
 }
 
-export default countdown
+export default Countdown;
